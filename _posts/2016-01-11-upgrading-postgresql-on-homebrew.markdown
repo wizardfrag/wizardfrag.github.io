@@ -4,7 +4,7 @@ title:  "Upgrading to postgresql 9.5 with homebrew"
 date:   2016-01-11 10:45:00 +0000
 categories: howto
 ---
-Upgrading to postgresql 9.5 with homebrew is fairly simple. It just takes a few steps. This may seem like a lot, but depending on the size of your database, this should only take a few minutes to do all these steps.
+Upgrading to postgresql 9.5 with homebrew is fairly simple. It just takes a few steps. This may seem like a lot, but depending on the size of your database, it should only take a few minutes to do all these steps.
 
 ### Stop the postgresql server (if using launchctl):
 {% highlight bash %}
@@ -44,4 +44,4 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 ### Done
 
-That's really all there is to it!
+That's really all there is to it! You can `brew cleanup postgresql` once you've verified that your server works using `psql` and looking around your tables.
