@@ -2,7 +2,7 @@
 layout: post
 title:  "Upgrading to postgresql 9.5 with homebrew"
 date:   2016-01-11 10:45:00 +0000
-categories: update postgresql
+categories: howto
 ---
 Upgrading to postgresql 9.5 with homebrew is fairly simple. It just takes a few steps. This may seem like a lot, but depending on the size of your database, this should only take a few minutes to do all these steps.
 
