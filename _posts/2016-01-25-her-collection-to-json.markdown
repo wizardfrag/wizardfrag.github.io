@@ -8,6 +8,8 @@ When converting a collection from [Her](http://www.her-rb.org) to JSON in our ra
 
 I came up with the following as a workaround, I'm sure there's possibly better ways of doing this, but this is what I've managed:
 
-    collection.fetch.map { |item| item.attributes }.to_json
+{% highlight ruby %}
+collection.fetch.map { |item| item.attributes }.to_json
+{% endhighlight %}
 
 Hopefully this helps someone, or at least future me!
