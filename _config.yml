@@ -9,10 +9,10 @@
 title: David White
 email: me@wizardfrag.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  David White is a software developer at Packet Media and is currently
-  working on a microservice project involving Rails, Go, and Her.
+  Hey, I'm David White! I'm an Erlang software developer working on some really
+  great things. In my spare time I do things with Minecraft.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://wizardfrag.co.uk" # the base hostname & protocol for your site
 twitter_username: davidgawhite
 github_username:  wizardfrag
 
