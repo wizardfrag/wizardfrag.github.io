@@ -1,0 +1,23 @@
+baseURL = 'https://wizardfrag.co.uk/'
+languageCode = 'en-gb'
+title = 'David White'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+author = "David White"
+description = "Software developer and hobbyist game developer"
+
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://mastodon.social/@wizardfrag"
+rel = "me noopener"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/wizardfrag"
