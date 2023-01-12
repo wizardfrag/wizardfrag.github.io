@@ -2,6 +2,7 @@ baseURL = 'https://wizardfrag.co.uk/'
 languageCode = 'en-gb'
 title = 'David White'
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+rsslimit = 20
 
 [sitemap]
 changefreq = "weekly"
@@ -11,7 +12,7 @@ filename = "sitemap.xml"
 [params]
 author = "David White"
 description = "Software developer and hobbyist game developer"
-
+background_color_class = "bg-near-black"
 
 [[params.ananke_socials]]
 name = "mastodon"
@@ -21,3 +22,8 @@ rel = "me noopener"
 [[params.ananke_socials]]
 name = "github"
 url = "https://github.com/wizardfrag"
+rel = "me noopener"
+
+[[params.ananke_socials]]
+name = "rss"
+url = "/index.xml"
