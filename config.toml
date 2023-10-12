@@ -16,7 +16,7 @@ background_color_class = "bg-near-black"
 
 [[params.ananke_socials]]
 name = "mastodon"
-url = "https://mastodon.social/@wizardfrag"
+url = "https://masto.wizardfrag.co.uk/@wizardfrag"
 rel = "me noopener"
 
 [[params.ananke_socials]]
