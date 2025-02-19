@@ -1,8 +1,12 @@
 baseURL = 'https://wizardfrag.co.uk/'
 languageCode = 'en-gb'
-title = 'David White'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+title = "David White"
+# theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["PaperMod"]
 rsslimit = 20
+pagination.pagerSize = 5
+
+enableRobotsTXT = true
 
 [sitemap]
 changefreq = "weekly"
@@ -12,18 +16,24 @@ filename = "sitemap.xml"
 [params]
 author = "David White"
 description = "Software developer and hobbyist game developer"
-background_color_class = "bg-near-black"
+keywords = ["Blog", "Portfolio", "Gamedev"]
 
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://masto.wizardfrag.co.uk/@wizardfrag"
-rel = "me noopener"
+[params.homeInfoParams]
+Title = "Hi there! 👋🏻"
+Content = """
+I'm David, a full time software developer and hobbyist game developer.
 
-[[params.ananke_socials]]
-name = "github"
+I'm currently working as a software engineer at [prima](https://helloprima.com)!
+"""
+
+[[params.socialIcons]]
+name = "Bluesky"
+url = "https://bsky.app/profile/wizardfrag.uk"
+
+[[params.socialIcons]]
+name = "Mastodon"
+url = "https://mstdn.social/@wizardfrag"
+
+[[params.socialIcons]]
+name = "GitHub"
 url = "https://github.com/wizardfrag"
-rel = "me noopener"
-
-[[params.ananke_socials]]
-name = "rss"
-url = "/index.xml"
